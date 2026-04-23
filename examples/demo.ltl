@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_health_check
+
+import std::io
+use ltl_health_check as lib
+
+fn main() {
+    io::println("ltl_health_check demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
