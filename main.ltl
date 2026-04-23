@@ -1,0 +1,15 @@
+// ltl-health-check/main.ltl
+//
+// HTTP health / readiness / liveness endpoint harness.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-health-check v0.1.0")
+    io::println("HTTP health / readiness / liveness endpoint harness.")
+    0
+}
